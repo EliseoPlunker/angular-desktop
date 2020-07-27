@@ -3,6 +3,11 @@
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 The aim is create a "style window" desktop in an Angular Application
 
+## Instalation
+```
+  npm i angular-desktop-ng
+```
+
 ## Use
 Include in your module
 
@@ -61,9 +66,8 @@ And you need **include** in entryComponents of your modules the Components.
 A path like
 ```
     { path: 'MyComponent/:id', component: MyComponent,data:{title:"One"} },
- 
 ```
-need declare as variable params
+need declare in your component a variable called params
 ```
 params:any
 ```
@@ -77,3 +81,6 @@ And you get in `params.id` the parameter. Really params is an object that store 
 
 (this allow us, e.g. change the title of the window)
 
+## Example
+
+Please, feel free to check a example in the [stackblitz](https://stackblitz.com/edit/angular-ivy-da7hup?file=src%2Fapp%2Fapp-routing.module.ts). For better experience use "open in new window"
