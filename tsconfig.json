@@ -15,6 +15,12 @@
     },
     {
       "path": "./e2e/tsconfig.json"
+    },
+    {
+      "path": "./projects/angular-desktop-ng/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/angular-desktop-ng/tsconfig.spec.json"
     }
 ]
 }

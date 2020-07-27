@@ -1,0 +1,18 @@
+<div class="all">
+    <div class="desktop" [style.background-image]="backgroundImage">
+        <ng-template ad-host></ng-template>
+    </div>
+    <div class="window-head" [style.background]="toolbarBackground">
+        <ul class="nav nav-tabs">
+            <li>
+               <ng-content></ng-content>
+            </li>
+            <li class="nav-item" *ngFor="let app of desktopService.windows">
+                <a class="nav-link" [class.active]="app.active?true:null" (click)="app.app.toTop()" [title]="app.params.title">
+                    <img *ngIf="app.params.icon" [src]="app.params.icon">
+                    <div *ngIf="!app.params.icon" class="no-file"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

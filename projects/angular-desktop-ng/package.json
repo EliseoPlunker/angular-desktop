@@ -1,0 +1,15 @@
+{
+  "name": "angular-desktop-ng",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^10.0.5",
+    "@angular/core": "^10.0.5"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "author": {"name": "Eliseo Plunker"},
+  "homepage": "https://github.com/EliseoPlunker/angular-desktop#Readme.md",
+  "keywords": ["Angular","Desktop","Router"],
+  "license": "MIT"
+}
